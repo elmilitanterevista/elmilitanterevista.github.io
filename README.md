@@ -1,1 +1,0 @@
-# elmilitanterevista.github.io
