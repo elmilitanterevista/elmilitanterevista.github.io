@@ -1,115 +1,4 @@
-/* Variables
-------------------------------------------------------------------
-{
-  Color: [
-    {
-      value: 'lightyellow',
-      sample: '#ffef0d',
-      base: '#ffffff',
-      highlight: '#ffef0d',
-      filler: '#000000',
-      btnfill: '#000000',
-      altbtnfill: '#ffef0d',
-      border: '#e3e3e3',
-      firstreply: '#f8f8f8',
-      secondreply: '#f0f0f0',
-      variant: 'light'
-    },
-    {
-      value: 'darkyellow',
-      sample: '#e5e717',
-      base: '#000000',
-      highlight: '#e5e717',
-      filler: '#ffffff',
-      btnfill: '#000000',
-      altbtnfill: '#000000',
-      border: '#333333',
-      firstreply: '#232323',
-      secondreply: '#2c2c2c',
-      variant: 'dark'
-    },
-    {
-      value: 'lightgreen',
-      sample: '#28eb76',
-      base: '#ffffff',
-      highlight: '#28eb76',
-      filler: '#000000',
-      btnfill: '#000000',
-      altbtnfill: '#28eb76',
-      border: '#e3e3e3',
-      firstreply: '#f8f8f8',
-      secondreply: '#f0f0f0',
-      variant: 'light'
-    },
-    {
-      value: 'darkgreen',
-      sample: '#31e578',
-      base: '#000000',
-      highlight: '#31e578',
-      filler: '#ffffff',
-      btnfill: '#000000',
-      altbtnfill: '#000000',
-      border: '#333333',
-      firstreply: '#232323',
-      secondreply: '#2c2c2c',
-      variant: 'dark'
-    },
-    {
-      value: 'lightpink',
-      sample: '#ff66bf',
-      base: '#ffffff',
-      highlight: '#ff66bf',
-      filler: '#000000',
-      btnfill: '#000000',
-      altbtnfill: '#ff66bf',
-      border: '#e3e3e3',
-      firstreply: '#f8f8f8',
-      secondreply: '#f0f0f0',
-      variant: 'light'
-    },
-    {
-      value: 'darkpink',
-      sample: '#f76dbd',
-      base: '#000000',
-      highlight: '#f76dbd',
-      filler: '#ffffff',
-      btnfill: '#000000',
-      altbtnfill: '#000000',
-      border: '#333333',
-      firstreply: '#232323',
-      secondreply: '#2c2c2c',
-      variant: 'dark'
-    },    
-    {
-      value: 'lightblue',
-      sample: '#47d7ed',
-      base: '#ffffff',
-      highlight: '#47d7ed',
-      filler: '#000000',
-      btnfill: '#000000',
-      altbtnfill: '#47d7ed',
-      border: '#e3e3e3',
-      firstreply: '#f8f8f8',
-      secondreply: '#f0f0f0',
-      variant: 'light'
-    },
-    {
-      value: 'darkblue',
-      sample: '#59e0f6',
-      base: '#000000',
-      highlight: '#59e0f6',
-      filler: '#ffffff',
-      btnfill: '#000000',
-      altbtnfill: '#000000',
-      border: '#333333',
-      firstreply: '#232323',
-      secondreply: '#2c2c2c',
-      variant: 'dark'
-    }
-  ]
-}
-------------------------------------------------------------------
-*/
+
 
 
 /* CSS Reset
@@ -160,8 +49,8 @@ body, #wrapper, #content {
   font-size: 14px;
   font-family: 'Sintony', Helvetica, sans-serif;
   line-height: 2;
-  background: $base;
-  color: $filler;
+  background: #ffffff;
+  color: #000000;
   font-weight: 700;
   word-spacing: .1em;
   letter-spacing: .02em;
@@ -197,7 +86,7 @@ body, #wrapper, #content {
 }
 
 a {
-  color: $filler;
+  color: #000000;
   text-decoration: none;
 }
 
@@ -228,13 +117,13 @@ blockquote {
 blockquote span {
   position: relative;
   display: inline;
-    background: $highlight;
-    color: $btnfill;
+    background: #47d7ed;
+    color: #000000;
     font-size: 1.8em;
     font-style: italic !important;
     line-height: 1.75;
     padding: .25em 0 .4em;
-    box-shadow: -14px 0 0 0 $highlight, 16px 0 0 0 $highlight;
+    box-shadow: -14px 0 0 0 #47d7ed, 16px 0 0 0 #47d7ed;
 }
 
 
@@ -244,8 +133,8 @@ blockquote span {
 }
 
 #content .paragraph a, .blog-read-more a, #commentUserInfo a {
-  color: $filler;
-  border-bottom: 3px solid $filler;
+  color: #000000;
+  border-bottom: 3px solid #000000;
 }
 
 #content .paragraph a:hover,
@@ -255,7 +144,7 @@ blockquote span {
 #commentUserInfo a:hover,
 #commentUserInfo a:active {
   border-bottom: none;
-  background: $highlight;
+  background: #47d7ed;
 }
 
 /* Header
@@ -278,8 +167,8 @@ blockquote span {
 #banner h2 .wsite-headline {
   display: inline-block;
   font-size: 2.5em;
-  background: $highlight;
-  color: $btnfill;
+  background: #47d7ed;
+  color: #000000;
   padding: .25em .5em !important;
 }
 
@@ -292,7 +181,7 @@ blockquote span {
   width: 100%;
   top: 0;
   left: 0;
-  background: $base;
+  background: #ffffff;
   z-index: 13;
 }
 
@@ -304,7 +193,7 @@ blockquote span {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px 0;
-  background: $base;
+  background: #ffffff;
   z-index: 13;
 }
 
@@ -322,13 +211,13 @@ blockquote span {
   display: inline-block;
   padding: 0 0 3px;
   margin: 0 12px;
-  background: $base;
+  background: #ffffff;
     font: 14px/1 'Sintony', Helvetica, sans-serif;
 }
 
 #nav ul li a {
   padding: 10px 0 7px;
-  background: $base;
+  background: #ffffff;
   display: block;
   font-weight: 700 !important;
   font-size: 15px;
@@ -343,16 +232,16 @@ blockquote span {
 }
 
 #nav ul li#active, #nav ul li:hover,  #nav ul li:focus {
-  background: $filler;
+  background: #000000;
 }
 
 #navigation.bodynav,  .bodynav #nav ul li, .bodynav #nav, .bodynav #nav ul li a {
-  background-color: $highlight !important;
-  color: $btnfill !important;
+  background-color: #47d7ed !important;
+  color: #000000 !important;
 }
 
 .bodynav #nav ul li#active, .bodynav #nav ul li:hover,  .bodynav #nav ul li:focus {
-  background: $btnfill !important;
+  background: #000000 !important;
 }
 
 /* Navigation Submenu's
@@ -372,9 +261,9 @@ blockquote span {
 }
 
 #wsite-menus > .wsite-menu-wrap > .wsite-menu {
-  border-left: 1px solid $border;
-  border-right: 1px solid $border;
-  border-bottom: 1px solid $border;
+  border-left: 1px solid #e3e3e3;
+  border-right: 1px solid #e3e3e3;
+  border-bottom: 1px solid #e3e3e3;
 }
 
 #wsite-menus.dropnav > .wsite-menu-wrap > .wsite-menu {
@@ -401,28 +290,28 @@ a .wsite-menu-title {
 }
 
 #wsite-menus .wsite-menu li a {
-    color: $base;
-    background: $filler;
+    color: #ffffff;
+    background: #000000;
 }
 
 #wsite-menus .wsite-menu li a:hover {
-    color: $filler;
-    background: $highlight;
+    color: #000000;
+    background: #47d7ed;
 }
 
 #wsite-menus > .wsite-menu-wrap > .wsite-menu > li > a {
-    color: $filler;
-    background: $base;
+    color: #000000;
+    background: #ffffff;
 }
 
 #wsite-menus.dropnav > .wsite-menu-wrap > .wsite-menu > li > a {
-    color: $btnfill;
-    background: $highlight;
+    color: #000000;
+    background: #47d7ed;
 }
 
 #wsite-menus > .wsite-menu-wrap > .wsite-menu > li > a:hover {
-    color: $base;
-    background: $filler;
+    color: #ffffff;
+    background: #000000;
 }
 
 .wsite-menu-arrow {
@@ -436,23 +325,23 @@ a .wsite-menu-title {
   right: auto !important;
   text-indent: -9999px !important;
   overflow: hidden !important;
-  background: url(sprites/$variant-subnav.png) no-repeat center center !important;
+  background: url(sprites/light-subnav.png) no-repeat center center !important;
 }
 
 a:hover .wsite-menu-arrow {
-  background: url(sprites/$variant-website.png) no-repeat center center !important;
+  background: url(sprites/light-website.png) no-repeat center center !important;
 }
 
 #wsite-menus > .wsite-menu-wrap > .wsite-menu > li > a .wsite-menu-arrow {
-  background: url(sprites/$variant-website.png) no-repeat center center !important;
+  background: url(sprites/light-website.png) no-repeat center center !important;
 }
 
 #wsite-menus > .wsite-menu-wrap > .wsite-menu > li > a:hover .wsite-menu-arrow {
-  background: url(sprites/$variant-subnav.png) no-repeat center center !important;
+  background: url(sprites/light-subnav.png) no-repeat center center !important;
 }
 
 #wsite-menus.dropnav > .wsite-menu-wrap > .wsite-menu > li > a .wsite-menu-arrow, #wsite-menus.dropnav > .wsite-menu-wrap > .wsite-menu > li > a:hover .wsite-menu-arrow {
-  background: url(sprites/$variant-subnav.png) no-repeat center center !important;
+  background: url(sprites/light-subnav.png) no-repeat center center !important;
 }
 
 
@@ -511,8 +400,8 @@ a:hover .wsite-menu-arrow {
 
 .short-header-page #banner h2 .wsite-headline {
   font-size: 1.6em;
-  color: $base;
-  background: $filler;
+  color: #ffffff;
+  background: #000000;
 }
 
 .short-header-page #banner {
@@ -539,14 +428,14 @@ a:hover .wsite-menu-arrow {
 
 .title-page #banner h2 .wsite-headline {
   font-size: 1.6em;
-  color: $base;
-  background: $filler;
+  color: #ffffff;
+  background: #000000;
 }
 
 .title-page #banner p .wsite-headline-paragraph {
   font-size: 1.25em;
-  color: $btnfill;
-  background: $highlight;
+  color: #000000;
+  background: #47d7ed;
   padding: .5em .75em !important;
   display: inline-block;
   line-height: 1;
@@ -578,7 +467,7 @@ a:hover .wsite-menu-arrow {
 
 .wsite-form-label {
   display: inline-block;
-  color: $filler;
+  color: #000000;
   font-family: 'Montserrat', Helvetica, sans-serif;
   font-size: 1.25em;
   text-transform: uppercase;
@@ -587,7 +476,7 @@ a:hover .wsite-menu-arrow {
 }
 
 .form-required {
-  color: $filler;
+  color: #000000;
   font-weight: normal !important;
 }
 
@@ -599,8 +488,8 @@ a:hover .wsite-menu-arrow {
   font-family: 'Sintony', Helvetica, sans-serif;
   font-weight: bold;
   font-size: 1.15em;
-  color: $filler;
-  background: $base;
+  color: #000000;
+  background: #ffffff;
   padding: 8px !important;
   border-radius: 0 !important;
 }
@@ -610,14 +499,14 @@ a:hover .wsite-menu-arrow {
 #wsite-search-query:focus,
 .wsite-form-field select:focus,
 .wsite-com-product-option-dropdown select:focus {
-  background-color: $highlight;
-  color: $btnfill;
+  background-color: #47d7ed;
+  color: #000000;
 }
 
 .wsite-form-input,
 .wsite-form-field select,
 .wsite-com-product-option-dropdown select {
-  border: 3px solid $filler;
+  border: 3px solid #000000;
 }
 
 .wsite-form-field select, .wsite-com-product-option-dropdown select {
@@ -645,7 +534,7 @@ a:hover .wsite-menu-arrow {
   border-top: 0;
   border-left: 0;
   border-right: 0;
-  border-bottom: 3px solid $filler;  
+  border-bottom: 3px solid #000000;  
 }
 
 #wsite-search-results {
@@ -696,16 +585,16 @@ a:hover .wsite-menu-arrow {
 }
 
 .wsite-search-element-input::-webkit-input-placeholder { /* WebKit browsers */
-  color: $filler;
+  color: #000000;
 }
 .wsite-search-element-input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-  color: $filler;
+  color: #000000;
 }
 .wsite-search-element-input::-moz-placeholder { /* Mozilla Firefox 19+ */
-  color: $filler;
+  color: #000000;
 }
 .wsite-search-element-input:-ms-input-placeholder { /* Internet Explorer 10+ */
-  color: $filler;
+  color: #000000;
 }
 
 .wsite-search-element {
@@ -717,7 +606,7 @@ a:hover .wsite-menu-arrow {
   right: 0;
   width: 36px;
   height: 36px;
-  background: transparent url(sprites/$Color-search.png) no-repeat center center;  
+  background: transparent url(sprites/lightblue-search.png) no-repeat center center;  
   margin: 0 !important;
   border: none !important;
 }
@@ -742,17 +631,17 @@ a:hover .wsite-menu-arrow {
 
 
 .wsite-com-product-option-label input[type="radio"] ~ span:before, .form-radio-container input[type="radio"] ~ label:before {
-  background: transparent url(sprites/$Color-radio.png) no-repeat top left;
+  background: transparent url(sprites/lightblue-radio.png) no-repeat top left;
 }
 
 .wsite-com-product-option-label input[type="checkbox"] ~ span:before, .form-radio-container input[type="checkbox"] ~ label:before {
-  background: transparent url(sprites/$Color-checkbox.png) no-repeat top left;
+  background: transparent url(sprites/lightblue-checkbox.png) no-repeat top left;
 }
 
 .wsite-form-radio-container select, .wsite-com-product-option-dropdown select {
   -webkit-appearance: none;
   -moz-appearance: none;
-  background: url(sprites/$Color-dropdown.png) no-repeat 97% center;
+  background: url(sprites/lightblue-dropdown.png) no-repeat 97% center;
 }
 
 /* Custom Form: Radios */
@@ -785,15 +674,15 @@ a:hover .wsite-menu-arrow {
   text-transform: uppercase;
   font-size: 1.25em !important;
   display: inline-block;
-  color: $base !important;
-  background: $filler !important;
+  color: #ffffff !important;
+  background: #000000 !important;
   padding: .8em 1.2em !important;
   line-height: 1 !important;
 }
 
 .wsite-button:hover, .wsite-button:active , .blog-button:hover, .blog-button:active {
-  color: $btnfill !important;
-  background: $highlight !important;
+  color: #000000 !important;
+  background: #47d7ed !important;
 }
 
 .wsite-button-inner {
@@ -813,15 +702,15 @@ a:hover .wsite-menu-arrow {
 
 .wsite-button-highlight,
 .wsite-editor .wsite-button-highlight {
-  color: $btnfill !important;
-  background: $highlight !important;  
-  border-bottom: 3px solid $filler;
+  color: #000000 !important;
+  background: #47d7ed !important;  
+  border-bottom: 3px solid #000000;
 }
 
 .wsite-button-highlight:hover, .wsite-button-highlight:active {
-  color: $altbtnfill !important;
-  background: $filler !important;  
-  border-bottom: 3px solid $highlight;
+  color: #47d7ed !important;
+  background: #000000 !important;  
+  border-bottom: 3px solid #47d7ed;
 }
 
 /* Gallery
@@ -829,7 +718,7 @@ a:hover .wsite-menu-arrow {
 
 .imageGallery .galleryCaptionHolderInnerBg,
 .wsite-com-category-subcategory-name-bg {
-  background: $highlight;
+  background: #47d7ed;
   opacity: .7;
 }
 
@@ -852,7 +741,7 @@ a:hover .wsite-menu-arrow {
 }
 
 #fancybox-thumbs ul li:hover, #fancybox-thumbs ul li.active {
-  background: $highlight;
+  background: #47d7ed;
   opacity: .75 !important;
 }
 
@@ -895,14 +784,14 @@ a:hover .wsite-menu-arrow {
 .wsite-social-item {
   display: inline-block;
   width: 40px;
-  color: $filler;
+  color: #000000;
   font-size: 2em;
   line-height: 1.5;
   text-align: center;
 }
 
 .wsite-social-item:hover {
-  background: $highlight;
+  background: #47d7ed;
 }
 
 /* Footer
@@ -917,7 +806,7 @@ a:hover .wsite-menu-arrow {
 
 #footer-content {
   text-align: center !important;
-  border-top: 3px solid $filler;
+  border-top: 3px solid #000000;
   padding: 5em 0 0;  
 }
 
@@ -962,7 +851,7 @@ h2#wsite-com-product-title {
 }
 
 .wsite-imageaspectratio-image-wrap {
-  background: $highlight !important;
+  background: #47d7ed !important;
 }
 
 #wsite-com-product-images-strip a img {
@@ -1034,7 +923,7 @@ h2#wsite-com-product-title {
 
 #wsite-com-product-quantity-input {
   padding-left: 40px !important;
-  border: 3px solid $filler !important;
+  border: 3px solid #000000 !important;
 }
 
 #wsite-com-product-quantity label:before {
@@ -1102,8 +991,8 @@ h2#wsite-com-product-title {
     text-align: center;
     font-weight: 900 !important;
     text-transform: uppercase;
-    color: $base;
-    background:$filler;
+    color: #ffffff;
+    background:#000000;
     clear: both;
     width:100%;
     padding:10px 18px;
@@ -1144,7 +1033,7 @@ h2#wsite-com-product-title {
     left: 0;
     width: 100%;
     padding: 3.5em 0 1.75em !important;
-    background: $filler;
+    background: #000000;
 }
 
 #wsite-com-store #wsite-com-hierarchy ul ul {
@@ -1183,17 +1072,17 @@ h2#wsite-com-product-title {
     text-align: center;
     font-weight: 900 !important;
     text-transform: uppercase;
-    color: $base;
+    color: #ffffff;
     display: block;
     padding:10px 0;
 }
 #wsite-com-store .wsite-com-sidebar #wsite-com-hierarchy a,
 #wsite-com-store .wsite-com-sidebar #wsite-com-hierarchy {
-    color: $base;
+    color: #ffffff;
 }
 
 #wsite-com-store .wsite-com-sidebar #wsite-com-hierarchy a:hover, .wsite-selected {
-    color: $highlight;
+    color: #47d7ed;
 }
 
 h2.wsite-checkout-header {
@@ -1223,7 +1112,7 @@ h2.wsite-checkout-header {
 }
 
 #content h2.blog-title a {
-  border-bottom: 3px solid $highlight;
+  border-bottom: 3px solid #47d7ed;
 }
 
 .blog-date, .blog-comments {
@@ -1296,7 +1185,7 @@ span.date-text {
 .blogCommentWrap div, .blogCommentWrap {
   background: none !important;
   padding: 0 !important;
-  color: $filler !important;
+  color: #000000 !important;
 }
 
 .blogCommentWrap {
@@ -1335,7 +1224,7 @@ span.date-text {
   font-weight: 700;
   font-size: 16px;
   line-height: 2.6;
-  color: $filler !important;
+  color: #000000 !important;
 }
 
 #commentUserInfo  {
@@ -1344,7 +1233,7 @@ span.date-text {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.75;
-  color: $filler !important;
+  color: #000000 !important;
   display: block !important;
   float: none !important;
   width: 100% !important;
@@ -1387,7 +1276,7 @@ span.date-text {
 
 .blogCommentAuthor {
   display: inline-block;
-  border-bottom: 2px solid $highlight;
+  border-bottom: 2px solid #47d7ed;
   width: auto !important;
 }
 
@@ -1400,15 +1289,15 @@ span.date-text {
 }
 
 #commentArea, .blogCommentHeading .blogCommentAuthor span.name, .blogCommentHeading .blogCommentAuthor a.name, .blogCommentHeading .blogCommentDate {
-  color: $filler !important;
+  color: #000000 !important;
   text-shadow: none;
 }
 
 .blogCommentHeading .blogCommentAuthor a.link {
-  color: $base !important;
+  color: #ffffff !important;
   display: inline-block;
   margin-right: 0 !important;
-  background: url(sprites/$variant-website.png) no-repeat left center;
+  background: url(sprites/light-website.png) no-repeat left center;
 }
 #commentPostArea {
   text-align: center;
@@ -1432,23 +1321,23 @@ span.date-text {
 
 #commentPostDiv .field input[type=text], #commentPostDiv .field textarea {
   font-family: 'Sintony';
-  border: 3px solid $filler;
+  border: 3px solid #000000;
   font-weight: bold;
   max-width: 97%;
   background: none !important;
-  color: $filler !important;
+  color: #000000 !important;
   padding: 8px !important;
-  border: 3px solid $filler;
+  border: 3px solid #000000;
 }
 
 #commentPostDiv .field input[type=text]:focus, #commentPostDiv .field textarea:focus {
-  background: $highlight !important;
+  background: #47d7ed !important;
   border-top: 0;
   border-bottom: 0;
   border-right: 0;
   padding: 12px 8px !important;
   outline: none;
-  color: $btnfill !important;
+  color: #000000 !important;
 }
 
 #commentSubmit {
@@ -1469,7 +1358,7 @@ span.date-text {
   top: -40px;
   left: 50%;
   margin-left: -20px;
-  color: $firstreply;
+  color: #f8f8f8;
   font-size: 36px;
   content:'\25B2';
   z-index: 10;
@@ -1483,7 +1372,7 @@ span.date-text {
   top: -40px;
   left: 50%;
   margin-left: -20px;
-  color: $secondreply;
+  color: #f0f0f0;
   font-size: 36px;
   content:'\25B2';
   z-index:10;
@@ -1494,7 +1383,7 @@ span.date-text {
 
 #commentText .blogCommentLevel1 {
   padding: 2em !important;
-  background: $firstreply !important;
+  background: #f8f8f8 !important;
   margin: 2em auto 0 !important;
 }
 
@@ -1504,7 +1393,7 @@ span.date-text {
 
 #commentText .blogCommentLevel2 {
   padding: 2em 2em 0 !important;
-  background: $secondreply !important;
+  background: #f0f0f0 !important;
   margin: 0 auto 1px !important;
 }
 
@@ -1529,7 +1418,7 @@ span.date-text {
     }
     .nav-trigger span.mobile {
         display:block;
-        background-color: $filler;
+        background-color: #000000;
         cursor:pointer;
         height:3px;
         width:25px;
@@ -1550,9 +1439,7 @@ span.date-text {
     .navmobile-wrapper label{
         display:inline-block;
     }
-    /*.navmobile-wrapper .nav-trigger{
-        padding:10px;
-    }*/
+    
     nav#nav-mobile ul.wsite-menu-default {
         display:none;
         list-style-type:none;
@@ -1743,7 +1630,7 @@ span.date-text {
     }
     #navmobile a:hover,
     #navmobile li#active a{
-        border-bottom:3px solid $btnfill;
+        border-bottom:3px solid #000000;
     }
     #navmobile .wsite-menu-default,
     #navmobile .wsite-menu{
@@ -1794,7 +1681,7 @@ span.date-text {
     }
     #page-wrap{
         display:inline-block;
-        background:$base;
+        background:#ffffff;
         position:relative;
         width:100%;
         height:100%;
@@ -1804,8 +1691,8 @@ span.date-text {
         position: relative;
         width:100%;
         z-index:11;
-        background:$base;
-        border-bottom:3px solid $filler;
+        background:#ffffff;
+        border-bottom:3px solid #000000;
         padding:0 2em;
         -webkit-box-sizing:border-box;
         -moz-box-sizing:border-box;
@@ -1874,7 +1761,7 @@ span.date-text {
     .wsite-menu-mobile-arrow:before{
         display:inline-block;
         padding:0 0 3px;
-        content:url(sprites/$variant-website.png);
+        content:url(sprites/light-website.png);
         vertical-align:bottom;
     }
     .wsite-menu-back-item .wsite-menu-mobile-arrow:before{
@@ -1886,7 +1773,7 @@ span.date-text {
     }
 
     #navigation.bodynav,  .bodynav #nav ul li, .bodynav #nav, .bodynav #nav ul li a {
-      background-color: $base !important;
+      background-color: #ffffff !important;
     }
     
     .w-ui.ui-dialog.popup-modal .ui-dialog-content>div .close-x, .w-ui .ui-dialog.popup-modal .ui-dialog-content>div .close-x {
@@ -1934,7 +1821,7 @@ span.date-text {
       width: 12px;
       height: 20px;
       border-radius: 100%;
-      border: 3px solid $filler;
+      border: 3px solid #000000;
     }
     
     #wsite-com-minicart-checkout-button .wsite-button-inner {
@@ -1974,7 +1861,7 @@ span.date-text {
     #wsite-com-checkout-button{
         padding:4px 10px 3px!important;
         font-size:0.8em!important;
-        border-bottom:3px solid $filler;
+        border-bottom:3px solid #000000;
     }
 
 /* Checkout */
@@ -1995,8 +1882,8 @@ span.date-text {
       min-width: 20px;
       height: 16px;
       text-align: center;
-      background: $filler !important;
-      color: $highlight !important;
+      background: #000000 !important;
+      color: #47d7ed !important;
       font-size: 14px !important;
       padding: 4px;
     }
@@ -2013,7 +1900,7 @@ span.date-text {
     }
     .wsite-search-element-input, 
     #wsite-search-query{
-        border-bottom:3px solid $filler;
+        border-bottom:3px solid #000000;
     }
     #wsite-search-form-container{
         float:right;
@@ -2385,9 +2272,7 @@ span.date-text {
     .wsite-com-category-subcategory-group .wsite-com-column{
         height:auto!important;
     }
-    /*.wsite-com-category-subcategory-name-text{
-        display:none;
-    }*/
+    
     .wsite-com-category-product-name,
     .wsite-com-product-price .wsite-com-price,
     .wsite-com-product-price.single-sale-price .wsite-com-sale-price{
@@ -2422,4 +2307,8 @@ span.date-text {
     #wsite-com-store #wsite-com-hierarchy ul .wsite-com-link-text{
         font-size:0.8em;
     }
+}
+
+.footer{
+  visibility: hidden;
 }
